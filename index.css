@@ -218,11 +218,9 @@ form { max-width:1024px; margin:50px auto; }
   box-sizing: border-box;
   outline:0;
 }
-::placeholder { /* Firefox 19+ */
+::placeholder {
   color: #fff;
 }
-
-.feedback-input:focus { border:2px solid #fff; }
 
 textarea {
   height: 150px;
