@@ -10,7 +10,7 @@ body {
 
 /* Style for home section */
 .home {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('code-bg.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../code-bg.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -289,7 +289,7 @@ textarea {
   margin-top: 40px;
 }
 .contact {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('awe.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../awe.jpg');
   background-size: cover;
   background-position: center;
   height: 530px;
