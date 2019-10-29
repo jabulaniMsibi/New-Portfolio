@@ -46,7 +46,7 @@ li {
 }
 
 /* About and Skills section style */
-..about_and_skills {
+.about_and_skills {
     max-width: 1024px;
 }
 .about_and_skills .about_skills_wrapper{
@@ -93,7 +93,37 @@ li {
   display: flex;
 }
 
-@keyframes example {
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+} 
+.about_and_skills .about_skills_wrapper .about_me {
+  animation-name: fadeIn;
+  -moz-animation: fadeIn ease 5s;
+  animation-duration: 5s;
+}
+.about_and_skills .about_skills_wrapper .my_skills {
+  animation-name: fadeIn;
+  -moz-animation: fadeIn ease 5s;
+  animation-duration: 5s;
+}
+
+
+
+/* @keyframes example {
   from {
     margin-top: -400px
   }
@@ -109,7 +139,7 @@ li {
 .about_and_skills .about_skills_wrapper .my_skills {
   animation-name: example;
   animation-duration: 2s;
-}
+} */
 
 
 
@@ -174,11 +204,13 @@ li {
   border: 1px solid black;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  opacity: 0.2;
+
 }
 
-.column img:hover {
+/* .column img:hover {
   opacity: 0.5;
-}
+} */
 
 /* Clear floats after the columns */
 .row:after {
